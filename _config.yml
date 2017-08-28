@@ -1,10 +1,9 @@
 nav:
+  Tôi: /about/
+bottom_nav:
   Home: /
-  About: /about/
-  Writing: /archives/
-  Projects: http://github.com/gabithume
-
-projects_url: http://github.com/gabithume
+  Tôi: /about/
+  Người Ta: http://devnhanguoita.com
 
 customize:
     gravatar:
@@ -13,10 +12,9 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/hienvd.png
         gravatar: false
     favicon:
-      # eg. generate with http://realfavicongenerator.net/
       desktop:
         url: /images/favicon.ico
         gravatar: false
@@ -27,11 +25,9 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/gabithume/cactus-light
-        twitter: /
-        facebook: /
-        linkedin: /
-    show_all_posts: false
+        twitter: http://twitter.com/duchienvuong
+        facebook: http://facebook.com/hienkhongdeu
+    show_all_posts: true
     post_count: 5
     highlight: monokai
 
@@ -40,8 +36,8 @@ rss: false
 
 # Plugins
 plugins:
-    disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    disqus_shortname: hienvuongblog
+    google_analytics: UA-76642041-1
 
 # Miscellaneous
 miscellaneous:
